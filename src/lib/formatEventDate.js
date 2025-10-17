@@ -66,11 +66,11 @@ export const formatEventDate = (isoString, format = 'full') => {
         'Saturday': 'Sabtu'
     };
 
-    let formatted = date.toLocaleDateString('en-US', formats[format]);
+    let formatted = date.toLocaleDateString('id-US', formats[format]);
 
     // Handle time format separately
     if (format === 'time') {
-        return date.toLocaleTimeString('en-US', formats[format]);
+        return date.toLocaleTimeString('id-US', formats[format]);
     }
 
     // Replace English month and day names with Indonesian ones
