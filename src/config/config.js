@@ -22,7 +22,7 @@ const config = {
     maps_embed:
       "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d254.20892782925011!2d105.38318186804072!3d-4.169163525594466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sid!2sid!4v1760708151353!5m2!1sid!2sid",
     // Event time (free format, example: "10:00 - 12:00 WIB")
-    time: "09:00 - Selesai WIB",
+    time: "09:00 - 21:00 WIB",
     // Venue/building name
     location: "Rumah Mempelai Wanita",
     // Full address of the wedding venue
@@ -71,7 +71,7 @@ const config = {
     // Background music settings
     audio: {
       // Music file (choose one or replace with your own file)
-      src: "/audio/pujaningsih.mp3", // or /audio/nature-sound.mp3
+      src: "/audio/manten.mp4", // or /audio/nature-sound.mp3
       // Music title to display
       title: "Fulfilling Humming", // or Nature Sound
       // Whether music plays automatically when website opens
