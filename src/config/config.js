@@ -42,11 +42,27 @@ const config = {
         // Start time (format: HH:MM)
         startTime: "09:00",
         // End time (format: HH:MM)
-        endTime: "Selesai",
+        endTime: "12:00",
         // Event venue
         location: "Rumah Mempelai Wanita",
         // Full address
-        address: "Jl. Pisang Timur, Sidomakmur, Penawar Tama, Tulang Bawang Regency, Lampung 34682",
+        address:
+          "Jl. Pisang Timur, Sidomakmur, Penawar Tama, Tulang Bawang Regency, Lampung 34682",
+      },
+      {
+        // First event name
+        title: "Resepsi Nikah",
+        // Event date (format: YYYY-MM-DD)
+        date: "2025-11-20",
+        // Start time (format: HH:MM)
+        startTime: "12:00",
+        // End time (format: HH:MM)
+        endTime: "21:00",
+        // Event venue
+        location: "Rumah Mempelai Wanita",
+        // Full address
+        address:
+          "Jl. Pisang Timur, Sidomakmur, Penawar Tama, Tulang Bawang Regency, Lampung 34682",
       },
 
       // You can add more agenda items with the same format
@@ -74,11 +90,16 @@ const config = {
         // Account holder name (all uppercase)
         accountName: "ETI NUR HASANAH",
       },
-      // {
-      //   bank: "Bank Mandiri",
-      //   accountNumber: "0987654321",
-      //   accountName: "FULANA",
-      // },
+      {
+        bank: "BRI",
+        accountNumber: "7707 0103 1170 534",
+        accountName: "ETI NUR HASANAH",
+      },
+      {
+        bank: "Dana",
+        accountNumber: "085783808860",
+        accountName: "ETI NUR HASANAH",
+      },
       // You can add more banks with the same format
     ],
   },

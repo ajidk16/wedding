@@ -42,6 +42,46 @@ const LandingPage = ({ onOpenInvitation }) => (
             <div className="h-px w-12 sm:w-16 bg-rose-200/50" />
           </div>
 
+          {/* Islamic Greeting Section */}
+          {/* <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.1 }}
+            className="mb-6 sm:mb-8 text-center space-y-3 sm:space-y-4"
+          >
+            <p className="text-lg sm:text-xl md:text-2xl font-serif text-rose-900/90 leading-relaxed">
+              Bismillahirrahmanirrahim
+            </p>
+
+            <div className="flex items-center justify-center gap-2">
+              <div className="h-px w-8 sm:w-12 bg-rose-200/50" />
+              <div className="w-1 h-1 rounded-full bg-rose-300" />
+              <div className="h-px w-8 sm:w-12 bg-rose-200/50" />
+            </div>
+
+            <p className="text-sm sm:text-base md:text-lg text-rose-900/80 leading-relaxed font-light">
+              Assalamu&apos;alaikum Warahmatullahi Wabarakatuh
+            </p>
+
+            <div className="pt-2 sm:pt-3 space-y-2">
+              <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed">
+                Dengan memohon rahmat dan ridho Allah SWT,
+              </p>
+              <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed">
+                Mohon do&apos;a restu Bapak/Ibu/Saudara/i dalam
+              </p>
+              <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed">
+                rangka melangsungkan pernikahan putra-putri kami:
+              </p>
+            </div>
+
+            <div className="flex items-center justify-center gap-2 pt-2 sm:pt-3">
+              <div className="h-px w-8 sm:w-12 bg-rose-200/50" />
+              <div className="w-1 h-1 rounded-full bg-rose-300" />
+              <div className="h-px w-8 sm:w-12 bg-rose-200/50" />
+            </div>
+          </motion.div> */}
+
           {/* Wedding Image */}
           <motion.div
             initial={{ scale: 0.95, opacity: 0 }}

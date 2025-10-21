@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import config from "@/config/config";
 import { formatEventDate } from "@/lib/formatEventDate";
-import { safeBase64 } from "@/lib/base64";
 
 export default function Hero() {
   const [guestName, setGuestName] = useState("");
@@ -17,11 +16,12 @@ export default function Hero() {
 
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
-    const guestParam = urlParams.get("guest");
+    const guestParam = urlParams.get("to");
+    console.log("guestParam:", guestParam);
     if (guestParam) {
       try {
-        const decodedName = safeBase64.decode(guestParam);
-        setGuestName(decodedName);
+        // const decodedName = safeBase64.decode(guestParam);
+        setGuestName(guestParam);
       } catch (error) {
         console.error("Error decoding guest name:", error);
         setGuestName("");
@@ -175,7 +175,7 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="text-gray-500 font-light italic text-base sm:text-lg"
             >
-              InsyaAllah Kami Akan Menikah
+              Insyaallah kami yang akan menikah
             </motion.p>
             <motion.h2
               initial={{ scale: 0.8, opacity: 0 }}
@@ -267,7 +267,7 @@ export default function Hero() {
                   <p className="text-gray-600 font-medium text-sm">
                     Bapak/Ibu/Saudara/i
                   </p>
-                  <p className="text-rose-500 font-semibold text-lg">
+                  <p className="text-rose-500 font-semibold text-lg capitalize">
                     {guestName ? guestName : "Tamu"}
                   </p>
                 </motion.div>
