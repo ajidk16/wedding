@@ -29,7 +29,7 @@ const config = {
     address:
       "Jl. Pisang Timur, Sidomakmur, Penawar Tama, Tulang Bawang Regency, Lampung 34682",
     // Image that appears when link is shared on social media
-    ogImage: "/images/og-image.jpg",
+    ogImage: "/images/couple-portrait.png",
     // Icon that appears in browser tab
     favicon: "/images/favicon.ico",
     // List of event agenda/schedule
