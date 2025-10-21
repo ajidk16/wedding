@@ -38,11 +38,11 @@ const config = {
         // First event name
         title: "Akad Nikah",
         // Event date (format: YYYY-MM-DD)
-        date: "2024-12-24",
+        date: "2025-11-20",
         // Start time (format: HH:MM)
-        startTime: "16:16",
+        startTime: "09:00",
         // End time (format: HH:MM)
-        endTime: "17:30",
+        endTime: "Selesai",
         // Event venue
         location: "Rumah Mempelai Wanita",
         // Full address
